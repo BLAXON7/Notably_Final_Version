@@ -29,7 +29,7 @@ A modern, full-stack web application built with Next.js, Supabase, and Tailwind 
 
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/) (v18 or higher)
-- [Bun](https://bun.sh/) (recommended) or npm
+- [Bun](https://bun.sh/) (recommended) or bun
 
 ### 1. Create the Next.js Application
 
@@ -41,7 +41,7 @@ cd my-app
 ### 2. Install Supabase Dependencies
 
 ```bash
-npm install @supabase/supabase-js @supabase/ssr
+bun install @supabase/supabase-js @supabase/ssr
 ```
 
 ### 3. Initialize Shadcn/ui
@@ -77,7 +77,7 @@ In your Supabase dashboard, set up the email confirmation template:
 ```bash
 bun dev
 # or
-npm run dev
+bun run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
