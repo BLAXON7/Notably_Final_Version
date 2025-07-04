@@ -1,4 +1,4 @@
-"use c;ient";
+"use client";
 
 import { Inter } from "next/font/google";
 import LoginButton from "@/components/LoginButton";
