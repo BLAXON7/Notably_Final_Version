@@ -133,7 +133,6 @@ The project uses a custom Tailwind configuration with:
 Configure your Supabase project with:
 - Authentication providers
 - Database tables and relationships
-- Row Level Security (RLS) policies
 - Storage buckets
 
 ## 📝 Scripts
